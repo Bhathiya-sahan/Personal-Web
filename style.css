@@ -100,3 +100,30 @@ nav ul li a:hover::after{
 .Hero_section p i {
     font-size: 25px;
 }
+
+/* About Me */
+
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: auto;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #34343478;
+}
+.colum1{
+    margin-top: 20px;
+}
+.colum1 img{
+    display: grid;
+   width: 90%;
+   transition: transform 0.4s;
+}
+.colum1 img:hover{
+    transform: scale(1.05);
+}
+
+.colum2{
+    display: grid;
+}
+
