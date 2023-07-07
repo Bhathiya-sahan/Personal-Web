@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    
+    background-image: url(Image/my_img.png);
     height: 100vh;
     max-width: 100%;
     background-size: cover;
@@ -82,4 +82,21 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 100%;
+}
+
+
+.Hero_section{
+    margin-top: 10%;
+    font-size: 30px;
+}
+.Hero_section h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.Hero_section strong{
+    color: #f33c3ceb;
+}
+
+.Hero_section p i {
+    font-size: 25px;
 }
