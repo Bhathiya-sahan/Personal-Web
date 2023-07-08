@@ -162,3 +162,56 @@ nav ul li a:hover::after{
     font-size: 25px;
 }
 
+/* Project */
+.project{
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 60px;
+    padding: 80px;
+    
+}
+.project_card{
+    background-color: red;
+    border: inset 6px white;
+    border-radius: 30px;
+    transition: transform 0.5s;
+
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+}
+
+.project_card:hover{
+    transform: scale(1.1);
+}
+
+.card_head{
+    background-color: blue;
+    border-radius: 23px 23px 0px 0px ;
+}
+
+.card_content{
+    background-color: gray;
+    border-radius: 0px 0px 23px 23px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+.card_content button{
+    margin-top: 3px;
+    padding: 10px;
+    background: #ffffff;
+    border: inset 4px black;
+    border-radius: 35px;
+}
+.card_content button:hover{
+    background-color: aqua;
+}
+.card_content a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
