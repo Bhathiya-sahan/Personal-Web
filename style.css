@@ -106,6 +106,7 @@ nav ul li a:hover::after{
 #about{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 16px;
     padding: auto;
     justify-content: space-between;
     height: 100vh;
@@ -113,6 +114,7 @@ nav ul li a:hover::after{
 }
 .colum1{
     margin-top: 20px;
+  
 }
 .colum1 img{
     display: grid;
@@ -124,6 +126,39 @@ nav ul li a:hover::after{
 }
 
 .colum2{
-    display: grid;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+ 
+}
+
+.colum2 h1{
+    text-shadow: 0px 0px 10px 12px #ffffff;
+    font-size: 40px;
+    margin-top: 20%;
+    margin-bottom: 20px;
+    transition: transform 1s;
+}
+.colum2 h1:hover{
+    text-shadow: 0px 0px 10px 12px #ffffff;
+    color: #ff0000;
+    transform: scale(1.1);
+}
+.colum2 h1::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.colum2 h1:hover::after{
+    width: 95%;
+}
+
+.colum2 p{
+    font-size: 25px;
 }
 
